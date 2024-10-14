@@ -1,0 +1,32 @@
+.hero-section {
+    background-image: url("college-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 150px 0;
+}
+
+.about-section {
+    margin-top: 40px;
+}
+
+.about-section img {
+    border-radius: 10px;
+}
+
+.services-section {
+    margin-top: 40px;
+}
+
+.services-section .card {
+    margin-bottom: 20px;
+}
+
+.campus-life-section {
+    margin-top: 40px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
