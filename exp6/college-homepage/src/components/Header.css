@@ -1,0 +1,93 @@
+/* src/components/Header.css */
+
+.header {
+    position: relative; /* For positioning child elements */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center align the text */
+    padding: 50px 20px; /* Ample padding for breathing space */
+    overflow: hidden; /* Prevent overflow from image */
+}
+
+.header-content {
+    position: relative; /* Keep content above image */
+    z-index: 2; /* Ensure content is above the image */
+}
+
+h1 {
+    font-size: 3.5em; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for depth */
+}
+
+nav {
+    margin-top: 10px; /* Space above the navigation */
+    
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+li {
+    display: inline; /* Inline list items */
+    margin: 0 20px; /* Space between menu items */
+    
+}
+
+a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.header-image {
+    position: absolute; /* Absolute position to cover header */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    right: 0; /* Align to right */
+    bottom: 0; /* Align to bottom */
+    z-index: 1; /* Stack behind text */
+}
+
+.header-image img {
+    width: 100%; /* Full width image */
+    height: 100%; /* Full height image */
+    object-fit: cover; /* Cover the header area */
+    filter: brightness(70%); /* Darken the image for better text visibility */
+}
+
+/* Default link styles */
+/* Default link styles */
+.nav-list a {
+    color: rgb(233, 222, 67) !important; /* Force link color to black */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding around the link */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background */
+    font-size: 30px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Hover effect */
+.nav-list a:hover {
+    background-color: #e93899; /* Background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Active link styles */
+.nav-list a.active {
+    font-weight: bold; /* Bold text for the active link */
+    color: #c0392b; /* Different color for active link */
+}
+
+
+
+
+
